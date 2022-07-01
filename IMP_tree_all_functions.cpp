@@ -3,6 +3,8 @@ using namespace std;
 #include "treeNode.h"
 #define endl "\n"
 
+// Second commit
+
 TreeNode<int> * takeInputBetter(){
     int rootNode;
     cout<<"Enter root node: ";cin>>rootNode;
@@ -153,6 +155,22 @@ int countNodesGreater(TreeNode<int>* root, int val){
     }
     return sum;
 }
+// int nodeMaxChild(TreeNode<int>* root, int val){
+//     // if(not root)return 0;
+//     int sum = root->data;
+//     for(int i=0;i<root->children.size();i++){
+//         sum += root->children[i]->data;
+//     }
+//     int ind = root->data;
+//     pair<int,int> p;
+//     p.first = sum;
+//     p.second = ind;
+//     for(int i=0;i<root->children.size();i++){
+//         p.second = max(p.first, nodeMaxChild(root->children[i]));
+//     }
+
+    
+// }
 
 
 int main(){
